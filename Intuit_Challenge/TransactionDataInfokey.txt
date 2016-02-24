@@ -1,0 +1,62 @@
+# KEYS TO IDENTIFY THE TRANSACTIONS
+#
+# To ignore a line start with hash
+#
+# ADD FIRST FIVE CHARACTERS OF THE TRANSACTIONNAME/KEY and  TYPES
+# PLEASE IDENTIFY THE TRANSACTION TYPES BELOW 
+# I - TRANSACTIONS THAT CAN BE IGNORED
+# R - RESTAURANT / PUBS TRANSACTIONS
+# M - MARKETS TRANSACTIONS
+# G - GAS PUMPS TRANSACTIONS
+# T - TAXI TRANSACTIONS
+# S - Stay/Housing TRANSACTIONS
+# U - UNKNOWN TRANSACTIONS
+#
+#
+#
+#*************LIST OF IGNORED TRANSACTIONS*************
+BKOFA;I
+TARGE;I
+NORDS;I
+PAYPA;I
+ADY*N;I
+AMAZO;I
+#*************LIST OF UNKNOWN TRANSACTIONS*************
+Blueb;U
+3 Sis;U
+#*************LIST OF MARKET TRANSACTIONS*************
+WALMA;M
+Goose;M
+#*************LIST OF GAS STATION TRANSACTIONS*************
+MOBIL;G
+CHEVR;G
+SHELL;G
+EXXON;G
+#*************LIST OF RESTAURANT/PUB TRANSACTIONS*************
+Twent;R
+The L;R
+Delic;R
+Iaria;R
+Shoef;R
+Mesh ;R
+Siam ;R
+Scott;R
+Brugg;R
+Mug N;R
+Sahm';R
+The T;R
+Shapi;R
+Cafe ;R
+Taste;R
+St. E;R
+Bazbe;R
+Pizzo;R
+Mama ;R
+Yats ;R
+#*************LIST OF TAXI TRANSACTIONS*************
+Uber ;T
+#*************LIST OF HOUSING/STAY TRANSACTIONS*************
+First;S
+
+
+

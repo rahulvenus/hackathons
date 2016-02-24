@@ -1,0 +1,12 @@
+
+
+List of the unknown transactions .. 
+
+
+Bluebeard 315685
+3 Sisters 53119
+Union 50 155802
+Recess 185748
+
+
+Please check README/TransactionDataInfokey.txt to know how can you help me to identify the unknown transactions .. 
