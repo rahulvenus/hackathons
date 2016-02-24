@@ -1,0 +1,32 @@
+
+public class pq {
+	
+	public static void main(String[] args){
+		
+		
+		int num =8;
+		int temp =2;
+		int p = -1,n =1;
+		int q = 0;
+		boolean flag = false;
+		while(temp<num){
+			p = temp;
+			n = 1;
+			while(n <= num){
+				
+				if(n == num){
+					flag = true;
+					break;
+				}
+				
+			}
+			if(flag)
+				break;
+			temp++;
+			
+		}
+		
+		System.out.println("p ="+p+" q="+q);
+	}
+
+}

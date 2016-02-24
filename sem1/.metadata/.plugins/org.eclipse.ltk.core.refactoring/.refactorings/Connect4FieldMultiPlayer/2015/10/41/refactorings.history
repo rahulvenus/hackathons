@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;Coonect4FieldMVC/src&apos;&#x0A;- Original project: &apos;Connect4FieldMultiPlayer&apos;&#x0A;- Destination element: &apos;Coonect4FieldMVC/src&apos;&#x0A;- Original elements:&#x0A;     PlayerInterface.java&#x0A;     Connec4FieldGame.java&#x0A;     Player.java&#x0A;     Connect4Field.java&#x0A;     Connect4FieldInterface.java" description="Copy compilation units" destination="=Coonect4FieldMVC/src" element1="/src&lt;{PlayerInterface.java" element2="/src&lt;{Connec4FieldGame.java" element3="/src&lt;{Player.java" element4="/src&lt;{Connect4Field.java" element5="/src&lt;{Connect4FieldInterface.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1444086561614" units="5" version="1.0"/>
+</session>

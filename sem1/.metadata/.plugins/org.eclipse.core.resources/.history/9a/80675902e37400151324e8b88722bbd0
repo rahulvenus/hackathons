@@ -1,0 +1,12 @@
+
+public class pq {
+	
+	public static void main(String[] args){
+		
+		
+		int num =8;
+		int temp =2;
+		
+	}
+
+}

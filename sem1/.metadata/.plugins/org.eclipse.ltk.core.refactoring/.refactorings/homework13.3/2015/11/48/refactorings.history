@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;13.3Remote/src&apos;&#x0A;- Original project: &apos;homework13.3&apos;&#x0A;- Destination element: &apos;13.3Remote/src&apos;&#x0A;- Original elements:&#x0A;     HelloImplementation.java&#x0A;     HelloInterface.java" description="Copy compilation units" destination="=13.3Remote/src" element1="/src&lt;{HelloImplementation.java" element2="/src&lt;{HelloInterface.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1448317496628" units="2" version="1.0"/>
+</session>

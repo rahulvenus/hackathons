@@ -1,0 +1,19 @@
+
+public class pq {
+	
+	public static void main(String[] args){
+		
+		
+		int num =8;
+		int temp =2;
+		int p;
+		int q = 0;
+		while(temp<num){
+			p = temp;
+			while(p)
+			
+		}
+		
+	}
+
+}

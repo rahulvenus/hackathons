@@ -1,0 +1,4 @@
+grant codeBase "file:/Users/rahul/Documents/workspace/homework13RMI/bin" {
+    permission java.security.AllPermission;
+};
+

@@ -1,0 +1,3 @@
+grant codeBase "file:/home/stu2/s9/rxv6510/Desktop/java_assignments/day13/finalUncommented/server/" {
+    permission java.security.AllPermission;
+};

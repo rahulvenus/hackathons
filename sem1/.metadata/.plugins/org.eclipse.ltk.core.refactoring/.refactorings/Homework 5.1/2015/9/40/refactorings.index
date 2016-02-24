@@ -1,0 +1,7 @@
+1443386580467	Infer generic type arguments
+1443404176568	Infer generic type arguments
+1443477473465	Move compilation unit
+1443485552986	Extract local variable 'scanner'
+1443492441449	Infer generic type arguments
+1443492496783	Convert local variable 'scanner' to field
+1443497677234	Move compilation unit

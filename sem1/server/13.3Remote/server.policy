@@ -1,0 +1,3 @@
+grant codeBase "file:/Users/rahul/Documents/workspace/server/13.Remote/" {
+    permission java.security.AllPermission;
+};
