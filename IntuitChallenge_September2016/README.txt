@@ -38,31 +38,51 @@ Public APIs Used:
 Sample Input and Output
 -----------------------
  Welcome to salary prediction !!!
+
  Enter the job name you want to predict the salary for:
 Software engineer
+
  Enter the city of your preference for employment:
 California
+
  Search is success...
+
  In this profession, predicted salary range is as mentioned below
  Minimum Salary =66907.25 USD
  Maximum Salary =132476.9 USD
  Average Salary =95194.85 USD
+
  Various positions that can be reached in this domain are as listed below:
-										senior software engineer----> Median Salary: 100000 USD
-										software developer----> Median Salary: 75000 USD
-										programmer----> Median Salary: 60000 USD
-										consultant----> Median Salary: 77000 USD
-										programmer analyst----> Median Salary: 60000 USD
-										web developer----> Median Salary: 64500 USD
-										project manager----> Median Salary: 85000 USD
-										developer----> Median Salary: 70491 USD
-										intern----> Median Salary: 40000 USD
-										research assistant----> Median Salary: 34000 USD
-										systems engineer----> Median Salary: 70000 USD
-										senior consultant----> Median Salary: 96000 USD
-										team lead----> Median Salary: 72000 USD
-										senior developer----> Median Salary: 95000 USD
-										software consultant----> Median Salary: 60000 USD
+				
+			senior software engineer----> Median Salary: 100000 USD
+				
+			software developer----> Median Salary: 75000 USD
+				
+			programmer----> Median Salary: 60000 USD
+				
+			consultant----> Median Salary: 77000 USD
+				
+			programmer analyst----> Median Salary: 60000 USD
+				
+			web developer----> Median Salary: 64500 USD
+				
+			project manager----> Median Salary: 85000 USD
+				
+			developer----> Median Salary: 70491 USD
+				
+			intern----> Median Salary: 40000 USD
+				
+			research assistant----> Median Salary: 34000 USD
+				
+			systems engineer----> Median Salary: 70000 USD
+				
+			senior consultant----> Median Salary: 96000 USD
+				
+			team lead----> Median Salary: 72000 USD
+				
+			senior developer----> Median Salary: 95000 USD
+				
+			software consultant----> Median Salary: 60000 USD
 
 
 
