@@ -1,0 +1,56 @@
+Author - Rahul Venugopala Pillai
+
+
+How to use 
+---------
+
+1. Compile the json library and SalaryPrediction.java.
+2. Build the executable.
+3. Give the inputs.
+
+Sample Input and Output
+-----------------------
+ 
+
+ Welcome to salary prediction !!!
+ Enter the job name you want to predict the salary for:
+cashier
+ Enter the city of your preference for employment:
+London
+ Search is success...
+ In this profession, predicted salary range is as mentioned below Maximum Salary =20876
+ Minimum Salary =16768
+ Average Salary =18560
+ Various positions that can be reached in this domain are as listed below:
+										sales associate----> Median Salary: 35000
+										receptionist----> Median Salary: 30000
+										administrative assistant----> Median Salary: 39500
+										server----> Median Salary: 23000
+										customer service representative----> Median Salary: 32000
+										assistant manager----> Median Salary: 40000
+										intern----> Median Salary: 40000
+										medical assistant----> Median Salary: 30000
+										teller----> Median Salary: 22800
+										security officer----> Median Salary: 28290
+										security guard----> Median Salary: 25000
+										office assistant----> Median Salary: 29000
+										customer service----> Median Salary: 34000
+										home health aide----> Median Salary: 0
+										volunteer----> Median Salary: 43362
+
+
+
+Description of the ROLE --- cashier
+---------------------------------------
+A cashier is a person who handles the cash register at various locations such as the point of sale in a retail store. The most common use of the title is in the retail industry, but this job title is also used in the context of accountancy for the person responsible for receiving and disbursing money or within branch banking in the United Kingdom for the job known in the United States as a bank teller.
+
+
+
+
+
+Current weather conditions of your preferred city:
+-------------------------------------------------
+
+Humidity =82
+Maximum Temperature =288.15
+Minimum Temperature =280.93
