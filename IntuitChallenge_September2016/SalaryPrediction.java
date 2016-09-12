@@ -27,15 +27,9 @@ class SalaryPrediction {
 	String userInputForCity;
 	
 	//Variables to store the salary details of preferred job
-	long minimumSalary;
-	long maximumSalary;
-	long averageSalary;
-	
-	//Constructor of the main class
-	SalaryPrediction(){
-		minimumSalary=Long.MAX_VALUE;
-		maximumSalary=Long.MIN_VALUE;
-	}
+	String minimumSalary;
+	String maximumSalary;
+	String averageSalary;
 	
 	/*
 	 * Function to get inputs from user.
@@ -112,16 +106,33 @@ class SalaryPrediction {
 	 			    
 	 			    // Parsing the JSON to get the lowest, highest and average salaries of that 
 	 			    // particular job
-	 			    minimumSalary = (Long)response.get("payLow");
-	 			    maximumSalary = (Long)response.get("payHigh");
-	 			    averageSalary = (Long)response.get("payMedian");
 	 			    
-	 			    System.out.print(" In this profession, predicted salary range is as mentioned below");
-				    System.out.println(" Maximum Salary ="+maximumSalary);
-				    System.out.println(" Minimum Salary ="+minimumSalary);
-				    System.out.println(" Average Salary ="+averageSalary);
-				    
-				    
+	 			    System.out.println(" In this profession, predicted salary range is as mentioned below");
+	 			   
+	 			    try{
+	 			    	minimumSalary = response.get("payLow").toString();
+	 			    	System.out.println(" Minimum Salary ="+minimumSalary+" USD");
+	 			    }
+	 			    catch(Exception e){
+	 			    	System.out.println(" Minimum Salary not available for the entered job");
+	 			    }
+	 			    
+	 			    try{
+	 			    	maximumSalary = response.get("payHigh").toString();
+	 			    	System.out.println(" Maximum Salary ="+maximumSalary+" USD");
+	 			    }
+	 			    catch(Exception e){
+	 			    	System.out.println(" Maximum Salary not available for the entered job");
+	 			    }
+	 			    
+	 			    try{
+	 			    	averageSalary = response.get("payMedian").toString();
+	 			    	System.out.println(" Average Salary ="+averageSalary+" USD");
+	 			    }
+	 			    catch(Exception e){
+	 			    	System.out.println(" Average Salary not available for the entered job");
+	 			    }
+	 			    
 				    //Listing out the possible future jobs by selecting this type of job.
 				    System.out.println(" Various positions that can be reached in this domain are as listed below:");
 	 			    
@@ -131,7 +142,7 @@ class SalaryPrediction {
 	 			    	long medianSalary = (long) resultObj.get("medianSalary");
 	 			    	String jobTitle = (String) resultObj.get("nextJobTitle");
 	 			   
-	 			        System.out.println("\t\t\t\t\t\t\t\t\t\t"+jobTitle+ "----> Median Salary: "+medianSalary);
+	 			        System.out.println("\t\t\t\t\t\t\t\t\t\t"+jobTitle+ "----> Median Salary: "+medianSalary +" USD");
 	 			    }
 			         
 		     	}
@@ -159,7 +170,8 @@ class SalaryPrediction {
 	     	JSONObject pages =  (JSONObject)query.get("pages");
 	     	
 	     	// The keys can change any time. So getting the value of first key dynamically.
-	     	Set<Object> keys = pages.keySet();
+	     	@SuppressWarnings("unchecked")
+			Set<Object> keys = pages.keySet();
 	     	String firstKey = (String) (keys.toArray())[0];
 	     	JSONObject firstPage =  (JSONObject)pages.get(firstKey);
 	     	
